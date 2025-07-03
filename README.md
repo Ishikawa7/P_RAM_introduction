@@ -33,6 +33,8 @@ The **P_RAM** is a sophisticated web-based malware analysis dashboard built usin
 2. File validation (format, columns, null values, duplicate IDs)
 3. Launch comprehensive analysis pipeline
 4. View updated statistics
+   
+![home](Home_page_COR.png)
 
 **Malware Classification Analysis**
 
@@ -47,6 +49,9 @@ The **P_RAM** is a sophisticated web-based malware analysis dashboard built usin
   - Classification scores bar chart
   - Detailed sample information table
 - **Expandable Accuracy Timeline**: Interactive chart showing accuracy evolution over time
+  
+![classification example](Classification_3_COR.png)
+![global stats](Stats_COR.png)
 
 **Self-Organizing Map Visualization**
 
@@ -62,6 +67,8 @@ The **P_RAM** is a sophisticated web-based malware analysis dashboard built usin
   - Detailed classification scores for selected samples
   - Principal component visualization
 - **Class Distribution Visualization**: "Pallogramma" showing class distribution across the SOM
+
+![SOM map](MAPPA_SOM_COR.png)
 
 **SOM Interpretation:**
 - Similar malware samples cluster together
@@ -83,14 +90,17 @@ The **P_RAM** is a sophisticated web-based malware analysis dashboard built usin
   - Outlier classification (binary)
   - Temporal trends
 
-## Core Data Processing Pipeline (P_RAM_ops.py)
+![monitoring anomalies](Anomalies_COR.png)
+![detail only anomalies](Anomalies_2_COR.png)
 
-### The `run_PRAM_ops()` Function Workflow:
+## Core Data Processing Pipeline
+
+### The Workflow:
 
 1. **Data Preprocessing**: Index setting and feature selection
 2. **TOCAT Classification**: 
-   - Model 1: For FireEye-labeled samples
-   - Model 2: For generic/ThreatConnect samples
+   - TOCAT 1: For FireEye-labeled samples
+   - TOCAT 2: For generic/ThreatConnect samples
 3. **Database Updates**: Prediction database maintenance
 4. **SOM Analysis**: 
    - Feature scaling and normalization
