@@ -35,7 +35,7 @@ The **P_RAM** is a sophisticated web-based malware analysis dashboard built usin
 4. View updated statistics
    
 ![home](Home_page_COR.png)
-
+---
 **Malware Classification Analysis**
 
 **Key Features:**
@@ -49,9 +49,11 @@ The **P_RAM** is a sophisticated web-based malware analysis dashboard built usin
   - Classification scores bar chart
   - Detailed sample information table
 - **Expandable Accuracy Timeline**: Interactive chart showing accuracy evolution over time
-  
+---
 ![classification example](Classification_3_COR.png)
+---
 ![global stats](Stats_COR.png)
+---
 
 **Self-Organizing Map Visualization**
 
@@ -67,9 +69,9 @@ The **P_RAM** is a sophisticated web-based malware analysis dashboard built usin
   - Detailed classification scores for selected samples
   - Principal component visualization
 - **Class Distribution Visualization**: "Pallogramma" showing class distribution across the SOM
-
+---
 ![SOM map](MAPPA_SOM_COR.png)
-
+---
 **SOM Interpretation:**
 - Similar malware samples cluster together
 - Distance from Best Matching Unit (BMU) indicates classification confidence
@@ -89,9 +91,11 @@ The **P_RAM** is a sophisticated web-based malware analysis dashboard built usin
   - Anomaly scores
   - Outlier classification (binary)
   - Temporal trends
-
+---
 ![monitoring anomalies](Anomalies_COR.png)
+---
 ![detail only anomalies](Anomalies_2_COR.png)
+---
 
 ## Core Data Processing Pipeline
 
